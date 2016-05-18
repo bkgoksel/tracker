@@ -1,0 +1,25 @@
+<template name="signEdit">
+  <form class="main form page">
+    <div class="form-group">
+      <label class="control-label" for="text">Text</label>
+      <div class="controls">
+          <input name="text" id="text" type="text" value="{{text}}" placeholder="Your URL" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="start">Start</label>
+      <div class="controls">
+          <input name="start" id="start" type="text" value="{{start}}" placeholder="Name your sign" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="end">End</label>
+      <div class="controls">
+          <input name="end" id="end" type="text" value="{{end}}" placeholder="Name your sign" class="form-control"/>
+      </div>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary submit"/>
+    <hr/>
+    <a class="btn btn-danger delete" href="#">Delete sign</a>
+  </form>
+</template>

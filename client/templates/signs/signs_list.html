@@ -1,0 +1,10 @@
+<template name="signsList">
+  <div class="signs page">
+    <div class="wrapper">
+      {{#each signs}}
+        {{> signEdit}}
+      {{/each}}
+    </div>
+  </div>
+  {{> signSubmit}}
+</template>
